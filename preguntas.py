@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-def pregunta_01():
+#pregunta_01():
     """
     En este punto se realiza la lectura de conjuntos de datos.
     Complete el código presentado a continuación.
@@ -41,7 +41,7 @@ def pregunta_01():
     print(X_reshaped.shape)
 
 
-def pregunta_02():
+# pregunta_02():
     """
     En este punto se realiza la impresión de algunas estadísticas básicas
     Complete el código presentado a continuación.
