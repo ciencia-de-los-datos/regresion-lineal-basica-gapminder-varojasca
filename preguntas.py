@@ -5,6 +5,8 @@ Regresión Lineal Univariada
 En este laboratio se construirá un modelo de regresión lineal univariado.
 
 """
+from xml.etree.ElementPath import xpath_tokenizer_re
+from statistics import LinearRegression
 import numpy as np
 import pandas as pd
 
@@ -100,7 +102,7 @@ def pregunta_03():
     y_pred = reg.predict(prediction_space)
 
     # Imprima el R^2 del modelo con 4 decimales
-    print((reg.score(X_fertility, y_life).round(4))
+    print((reg.score(X_fertility, y_life).round(4)))
 
 
 def pregunta_04():
@@ -145,5 +147,5 @@ def pregunta_04():
 
     # Compute and print R^2 and RMSE
     print("R^2: {:6.4f}".format(linearRegression.score(X_test, y_test)))
-    rmse = np.sqrt(mean_squearted_error(y_test, y_pred))
+    rmse = np.sqrt(mean_squared_error(y_test, y_pred))
     print("Root Mean Squared Error: {:6.4f}".format(rmse))
