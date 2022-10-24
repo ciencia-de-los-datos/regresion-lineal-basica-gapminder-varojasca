@@ -5,7 +5,7 @@ Regresión Lineal Univariada
 En este laboratio se construirá un modelo de regresión lineal univariado.
 
 """
-from statistics import LinearRegression
+from xml.etree.ElementPath import xpath_tokenizer_re
 import numpy as np
 import pandas as pd
 
