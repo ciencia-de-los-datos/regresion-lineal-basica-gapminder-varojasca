@@ -5,12 +5,12 @@ Regresión Lineal Univariada
 En este laboratio se construirá un modelo de regresión lineal univariado.
 
 """
-from xml.etree.ElementPath import xpath_tokenizer_re
+from statistics import LinearRegression
 import numpy as np
 import pandas as pd
 
 
-#pregunta_01():
+def pregunta_01():
     """
     En este punto se realiza la lectura de conjuntos de datos.
     Complete el código presentado a continuación.
@@ -41,7 +41,7 @@ import pandas as pd
     print(X_reshaped.shape)
 
 
-# pregunta_02():
+def pregunta_02():
     """
     En este punto se realiza la impresión de algunas estadísticas básicas
     Complete el código presentado a continuación.
@@ -113,7 +113,7 @@ def pregunta_04():
     # Importe LinearRegression
     # Importe train_test_split
     # Importe mean_squared_error
-    from sklearn.mofrl_selection import train_test_split
+    from sklearn.model_selection import train_test_split
     from sklearn.linear_model import LinearRegression
     from sklearn.metrics import mean_squared_error
 
